@@ -75,7 +75,14 @@ footer{
     padding: 8px;
 }
 
-/** media queries pour tablette **/
+.event{
+    visibility: hidden;
+
+
+
+}/** media queries pour tablette **/
+
+
 @media (min-width:810px){
 
     body{
@@ -103,5 +110,40 @@ footer{
     .contact{
         width: 100%;
     }
+
+    .event{
+        visibility: hidden;
+    }
+        
+}
+
+/** media queries pour desktop **/
+@media screen and (min-width: 1024px) {
+
+    body{
+        margin: 0;
+        padding: 0%;
+        font-size: 1.5rem;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+    section{
+       width: 45%;
+        border: 1px solid rgb(9, 1, 1);
+        margin: 1rem;
+        
+    }
+    .contact{
+        width: 100%;
+        background-color: rgb(159, 146, 146);
+        color: beige;
+    }    
     
+    .event{
+        visibility: visible;
+        font-size: 2rem;
+    }
 }
