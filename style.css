@@ -145,5 +145,9 @@ footer{
     .event{
         visibility: visible;
         font-size: 2rem;
+        width: 45%;
+    }
+    .image{
+        width: 100%;
     }
 }
