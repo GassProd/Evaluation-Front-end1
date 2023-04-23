@@ -1,0 +1,41 @@
+.link{
+    color: #000;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+    
+}
+
+/** start css for foire.html **/
+.container_grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:  "main aside" 
+                          "main2 aside2";
+    margin-top: 5rem;
+    
+}
+.main{
+    grid-area: main;
+    height: auto;
+    margin-right: 2rem;
+    border: solid 1px black;
+}
+.aside{
+    grid-area: aside;
+    height: auto;
+    border: solid 1px black;
+}
+
+.main2{
+    grid-area: main2;
+    background-color: rgb(198, 198, 131);
+    height: auto;
+}
+.aside2{
+    grid-area: aside2;
+    background-color: chocolate;
+    height: auto;
+}
