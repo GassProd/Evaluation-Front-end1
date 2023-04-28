@@ -21,12 +21,12 @@
     grid-area: main;
     height: auto;
     margin-right: 2rem;
-    border: solid 1px black;
+ 
 }
 .aside{
     grid-area: aside;
     height: auto;
-    border: solid 1px black;
+    
 }
 
 .main2{
@@ -38,4 +38,19 @@
     grid-area: aside2;
     background-color: chocolate;
     height: auto;
+}
+.adv{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 50%;
+    margin-right: 2rem;
+    padding: 1rem;
+    border: 1px solid rgb(9, 1, 1);
+    border-radius: 10px;
+   
+}
+.adv{
+    position: relative;
+    height:                                                                                                                                                                                                                                                                                                                                                                                                                                             
+
 }
