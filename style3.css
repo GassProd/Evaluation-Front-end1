@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    font-size: 16px;
+}
+nav{
+    background-color: rgb(5, 4, 61);
+    justify-content: start;
+}
+
+nav ul{
+    display: flex   ;
+    list-style-type: none;
+}
+nav ul li{
+    border: 1px solid rgb(9, 1, 1);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0.5rem;
+   background-color: rgb(110, 133, 186);
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(2, 0, 0); 
+}
+
+nav ul li a:hover{
+    color: rgb(8, 2, 3);
+}
+
+**/*debut css pour la pub */**
+.image{
+    width: 100vw;
+    height: 100vh;
+}
